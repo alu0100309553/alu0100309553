@@ -11,21 +11,29 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
-    height: 400px;
-    background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+    height: 250px;
+    background: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-2.jpg') center center no-repeat scroll;
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-
+    opacity: 1;
 }
 
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {
-    text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #fff;
     color: #fff;
+    font-weight: bold;
 }
-
+.tagline2 {
+    text-shadow: 0 0 10px #fff;
+    color: #fff;
+    font-size: 30px
+}
 .img-center {
     margin: 0 auto;
 }
